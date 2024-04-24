@@ -1,0 +1,12 @@
+table {
+    font-weight: 100;
+    text-align: left;
+}
+th {
+    font-weight: 200;
+    font-size: 24;
+}
+
+.contenido {
+    min-height: 60vh ;
+}

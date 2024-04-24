@@ -1,0 +1,5 @@
+Contiene la tabla users con el campo rol 
+y fue la ultima en usar
+1 = Admn
+0 = Normal
+ si no funciona esa BD en la bd de BDQuickTalk Actuilizar el campo de rol en tabla users
