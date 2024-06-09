@@ -61,10 +61,10 @@ if (!empty($fname) && !empty($lname) && !empty($email) && !empty($password)) {
                                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                                 $mail->Port = 587;
 
-                                $mail->Username = "quicktalk69@gmail.com";
-                                $mail->Password = "dhsxzltusmsimsng";
+                                $mail->Username = "correo@test.com";
+                                $mail->Password = "contrasena_de_aplicacion";
 
-                                $mail->setFrom("quicktalk69@gmail.com", "QuickTalk");
+                                $mail->setFrom("correo@test.com", "QuickTalk");
                                 $mail->addAddress($email, $fname);
 
                                 $mail->Subject = "Registro exitoso";
